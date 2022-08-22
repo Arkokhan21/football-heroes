@@ -12,7 +12,6 @@ function btnDisabled(btn) {
     button.setAttribute('disabled', true)
 }
 
-
 function getLi() {
     const list = document.getElementById("ol").getElementsByTagName("li")
     const result = list.length
@@ -21,8 +20,6 @@ function getLi() {
     }
     return result
 }
-
-
 
 document.getElementById('btn-1').addEventListener('click', function () {
     getPlayerName('mbappe')
