@@ -51,7 +51,7 @@
                 <div class="card ms-4 py-3" style="width: 18rem;">
                     <h2>Selected - V</h2>
                     <div class="card-body">
-                        <ol class="orderdList" id="ol">
+                        <ol id="ol">
 
                         </ol>
                     </div>
@@ -88,9 +88,9 @@
                 <div class="card ms-4 py-3" style="width: 20rem;">
                     <h4>Budget</h4>
                     <div class="card-body">
-                        <span>Per Player: </span><input type="text" class="mb-3 w-50">
-                        <button class="btn btn-primary mb-3">Calculate</button>
-                        <p class="text-start">Player Expenses:</p>
+                        <span>Per Player: </span><input id="playerCost" type="text" class="mb-3 w-50">
+                        <button class="btn btn-primary mb-3" id="btn-calc">Calculate</button>
+                        <p class="text-start">Player Expenses: <span id="expenses"></span></p>
                         <span>Manager: </span><input type="text" class="mb-3 w-50"><br>
                         <span>Coach: </span><input type="text" class="mb-3 w-50"><br>
                         <button class="btn btn-primary mb-3">Calculate Total</button>
@@ -100,7 +100,8 @@
             </div>
         </section>
     </main>
-    <script src="./js/football.js"></script>
+    <script src="./js/selected.js"></script>
+    <script src="./js/budget.js"></script>
 </body>
 
 </html>
